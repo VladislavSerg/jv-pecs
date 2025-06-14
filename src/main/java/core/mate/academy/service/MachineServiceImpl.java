@@ -35,6 +35,8 @@ public class MachineServiceImpl<M extends Machine> implements MachineService<M> 
     public void fill(List<? super M> machines, M value) {
         machines.clear();
         machines.add(value);
+        machines.add(value);
+        machines.add(value);
     }
 
     @Override
